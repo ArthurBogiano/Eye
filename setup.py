@@ -1,11 +1,12 @@
 from setuptools import setup
 
 setup(
-    name = 'Eye Websocket Server',
-    version = '1.1.0',
+    name = 'eye websocket',
+    version = '1.1.2',
     author = 'Arthur Bogiano',
     author_email = 'arthurprosel@gmail.com',
     packages = ['eye'],
+    install_requires=['websockets', 'asyncio'],
 
     description = 'It is a utility to simplify service creation processes using websockets',
 
